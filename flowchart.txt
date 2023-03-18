@@ -1,0 +1,36 @@
+1. Importing the packages
+2. Exploring the dataset - Road Traffic Network Data
+3. Data processing
+	- Processing using keras to catergical 
+	- Processing using Pandas Dataframe
+4. Visualization using seaborn & matplotlib
+5. Label Encoding using LabelEncoder
+6. Splitting the data to train and test for Deep LEarning and Taking X and Y for Machine Learning
+7. Building the model
+	- Deep Learning
+		- CNN
+		- CNN+LSTM
+		- LSTM
+		- BiLSTM
+		- RNN
+		- GRU
+		- CNN with KFoldVaildation  
+	- Machine Learning
+		- Random Forest
+		- Decision Tree
+		- KNN
+		- Support Vector Machine
+		- Voting Classifier  
+8. Training the model
+9. Building the model with Voting Classifier since it gives better accuracy comparing with Other Models 
+10. Flask Framework with Sqlite for signup and signin
+11. Importing the packages
+12. User gives input as Feature Values 
+13. The given input is preprocessed for prediction
+14. Trained model is used for prediction
+15. Final outcome is displayed through frontend
+
+Note:
+
+Extension - Voting Classifier,CNN+LSTM model is build as Extension for feature values
+used for prediction since we it gives better accuracy around 100,99 comparing with other Models
