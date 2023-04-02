@@ -1,189 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <!-- Basic -->
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-   
-    <!-- Mobile Metas -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
- 
-     <!-- Site Metas -->
-    <title>Home</title>  
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="static/images/apple-touch-icon.png">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="static/css/bootstrap.min.css">
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="static/style.css">
-    <!-- Colors CSS -->
-    <link rel="stylesheet" href="static/css/colors.css">
-    <!-- ALL VERSION CSS -->
-    <link rel="stylesheet" href="static/css/versions.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="static/css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="static/css/custom.css">
-
-    <!-- Modernizer for Portfolio -->
-    <script src="static/js/modernizer.js"></script>
-
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </head>
-<body class="host_version"> 
 
-	<!-- Modal -->
-	
-    
-
-    <header class="header header_style_01">
-        <nav class="megamenu navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a class="active" href="#">Home</a></li>
-                        
-                        <li><a class="active" href="/logon">Signup</a></li>
-                    </ul>
-                    
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Major Project</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    <a class="nav-link" href="/predict-traffic">Predict Traffic</a>
+                    <a class="nav-link" href="/notebook">Notebook</a>
                 </div>
             </div>
-        </nav>
-    </header>
-	
-	<div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
-			<li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
-			<li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
-		</ol>
-		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				<div id="home" class="first-section" style="background-image:url('uploads/slider-01.jpg');">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12 col-sm-12 text-center">
-								<div class="big-tagline">
-									
-									<h2 data-animation="animated zoomInRight">Welcome <strong>To Dashboard</strong> </h2>
-									<p class="lead" data-animation="animated fadeInLeft">Network Traffic Prediction Model Considering Road Traffic Parameters Using Artificial Intelligence Methods in VANET</p>
-
-									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									<a data-scroll href="#overviews" class="btn btn-light btn-radius btn-brd effect-1 slide-btn" data-animation="animated fadeInRight">All Features</a>
-								</div>
-							</div>
-						</div><!-- end row -->            
-					</div><!-- end container -->
-				</div><!-- end section -->
-			</div>
-			<div class="item">
-				<div id="home" class="first-section" style="background-image:url('uploads/slider-02.jpg');">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12 col-sm-12 text-center">
-								<div class="big-tagline">
-									
-									<h2 data-animation="animated zoomInRight">Welcome <strong>To Dashboard</strong> </h2>
-									<p class="lead" data-animation="animated fadeInLeft">Network Traffic Prediction Model Considering Road Traffic Parameters Using Artificial Intelligence Methods in VANET</p>
-									
-									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									<a data-scroll href="#overviews" class="btn btn-light btn-radius btn-brd effect-1 slide-btn" data-animation="animated fadeInRight">All Features</a>
-								</div>
-							</div>
-						</div><!-- end row -->            
-					</div><!-- end container -->
-				</div><!-- end section -->
-			</div>
-			<div class="item">
-				<div id="home" class="first-section" style="background-image:url('uploads/slider-03.jpg');">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12 col-sm-12 text-center">
-								<div class="big-tagline">
-									
-									<h2 data-animation="animated zoomInRight">Welcome <strong>To Dashboard</strong> </h2>
-									<p class="lead" data-animation="animated fadeInLeft">Network Traffic Prediction Model Considering Road Traffic Parameters Using Artificial Intelligence Methods in VANET</p>
-
-									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									<a data-scroll href="#overviews" class="btn btn-light btn-radius btn-brd effect-1 slide-btn" data-animation="animated fadeInRight">All Features</a>
-								</div>
-							</div>
-						</div><!-- end row -->            
-					</div><!-- end container -->
-				</div><!-- end section -->
-			</div>
-			<!-- Left Control -->
-			<a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
-				<span class="fa fa-angle-left" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-
-			<!-- Right Control -->
-			<a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
-				<span class="fa fa-angle-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div>
-	</div>
-	
-    
-
-    <div id="hosting" class="section wb" style="background: rgb(248, 248, 248)">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3>Road Traffic based Network Traffic Prediction</h3>
-                <p class="lead">Every day, more than 200,000 cross-border workers come to work in Luxembourg, causing regular traffic jams.
-
-                    With these data, several directions of study are possible:
-     
-                    Network analysis : analysis the car flow</p>
-            </div><!-- end title -->
- 
-        </div><!-- end container -->
-    </div><!-- end section -->
-
-	
-
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                
-                <div class="footer-left">                   
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2022 <a href="#">HostCloud</a> Design By : <a href="https://html.design/">html design</a></p>
-                </div>
-                
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </footer><!-- end footer -->
-
-
-    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
-
-    <!-- ALL JS FILES -->
-    <script src="static/js/all.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="static/js/custom.js"></script>
-
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="my-2">Traffic Prediction using Hybrid Deep-Learning Models</h1>
+        <p class="text-secondary">
+            Major Project by
+        <ul>
+            <li>Swaroop</li>
+            <li>Ravi das</li>
+            <li>Praveen</li>
+        </ul>
+        </p>
+    </div>
 </body>
+
 </html>
