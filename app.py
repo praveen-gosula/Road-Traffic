@@ -5,8 +5,7 @@ import joblib
 import numpy as np
 
 # Flask utils
-from flask import Flask, redirect, url_for, request, render_template
-from werkzeug.utils import secure_filename
+from flask import Flask, request, render_template
 
 app = Flask(__name__)
 
@@ -31,7 +30,7 @@ def predict():
             request.form['3']), float(request.form['4']), float(request.form['5']), float(request.form['6']), float(request.form['7'])
         final4 = np.array([val1, val2, val3, val4, val5,
                           val6, val7]).reshape(1, -1)
-        #int_features= [float(x) for x in request.form.values()]
+        # int_features= [float(x) for x in request.form.values()]
         # final4=[np.array(int_features)]
         predict = model.predict(final4)
 
