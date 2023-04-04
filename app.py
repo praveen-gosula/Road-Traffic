@@ -35,15 +35,15 @@ def predict():
         predict = model.predict(final4)
 
         if predict == 0:
-            output = 'Based on the Speed and Vehicle Count, The Network Traffic is Congested!'
+            output = 'Based on the Speed and Vehicle Count, the road Traffic is Congested!'
         elif predict == 1:
-            output = 'Based on the Speed and Vehicle Count, The Network Traffic is Free-Flow!'
+            output = 'Based on the Speed and Vehicle Count, the road Traffic is Free-Flow!'
         elif predict == 2:
-            output = 'Based on the Speed and Vehicle Count, The Network Traffic is Impossible!'
+            output = 'Based on the Speed and Vehicle Count, the road Traffic is Impossible!'
         elif predict == 3:
-            output = 'Based on the Speed and Vehicle Count, The Network Traffic is Unknown'
+            output = 'Based on the Speed and Vehicle Count, the road Traffic is Unknown'
 
-    return render_template("index.html", output=output)
+    return render_template("result.html", output=output)
 
 
 @app.route("/notebook")
