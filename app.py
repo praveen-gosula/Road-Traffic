@@ -34,14 +34,11 @@ def predict():
         # final4=[np.array(int_features)]
         predict = model.predict(final4)
 
-        if predict == 0:
-            output = 'Based on the Speed and Vehicle Count, the road Traffic is Congested!'
-        elif predict == 1:
-            output = 'Based on the Speed and Vehicle Count, the road Traffic is Free-Flow!'
-        elif predict == 2:
-            output = 'Based on the Speed and Vehicle Count, the road Traffic is Impossible!'
-        elif predict == 3:
-            output = 'Based on the Speed and Vehicle Count, the road Traffic is Unknown'
+        if predict == 1:
+            output = 'Road Traffic is in Free-Flow state'
+        else:
+            output = 'Road Traffic is in Congested state'
+        
 
     return render_template("result.html", output=output)
 
